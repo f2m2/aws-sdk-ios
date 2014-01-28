@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      =  'Amazon Web Services SDK for iOS.'
   s.homepage     =  'http://aws.amazon.com/sdkforios'
   s.author       =  { 'Amazon Web Services' => 'amazonwebservices' }
-  s.source       =  { :git => 'https://github.com/lostincode/aws-sdk-ios.git', :tag => '1.7.1' }
+  s.source       =  { :git => 'https://github.com/lostincode/aws-sdk-ios.git' }
   s.description  =  'The AWS SDK for iOS provides a library, code samples, and documentation for developers to build connected mobile applications using AWS.'
   s.platform     =  :ios
 
