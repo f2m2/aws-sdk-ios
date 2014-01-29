@@ -17,9 +17,9 @@
 
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonSDKUtil.h>
-#import <AWSRuntime/AmazonAuthUtils.h>
-#import <AWSRuntime/AmazonServiceRequest.h>
+#import <AmazonSDKUtil.h>
+#import <AmazonAuthUtils.h>
+#import <AmazonServiceRequest.h>
 #else
 #import "../AmazonSDKUtil.h"
 #import "../AmazonAuthUtils.h"
@@ -85,6 +85,6 @@
 -(NSString *)protocol;
 
 /** Returns the host portion of the endpoint. */
--(NSString *)endpointHost __attribute__((deprecated)); 
+-(NSString *)endpointHost __attribute__((deprecated));
 
 @end

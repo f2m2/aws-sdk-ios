@@ -16,8 +16,8 @@
 #import <Foundation/Foundation.h>
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonServiceException.h>
-#import <AWSRuntime/AmazonUnmarshallerXMLParserDelegate.h>
+#import <AmazonServiceException.h>
+#import <AmazonUnmarshallerXMLParserDelegate.h>
 #else
 #import "../AmazonServiceException.h"
 #import "../AmazonUnmarshallerXMLParserDelegate.h"

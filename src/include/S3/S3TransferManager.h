@@ -18,7 +18,7 @@
 #import "S3TransferOperation.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonServiceRequest.h>
+#import <AmazonServiceRequest.h>
 #else
 #import "../AmazonServiceRequest.h"
 #endif

@@ -16,7 +16,7 @@
 #import <Foundation/Foundation.h>
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonClientException.h>
+#import <AmazonClientException.h>
 #else
 #import "../AmazonClientException.h"
 #endif

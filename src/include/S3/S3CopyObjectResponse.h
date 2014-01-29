@@ -17,7 +17,7 @@
 #import "S3Response.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonSDKUtil.h>
+#import <AmazonSDKUtil.h>
 #else
 #import "../AmazonSDKUtil.h"
 #endif
